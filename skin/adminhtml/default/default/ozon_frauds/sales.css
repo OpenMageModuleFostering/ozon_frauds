@@ -1,0 +1,18 @@
+div.ozon_frauds ul {
+	padding: 0 20px;
+}
+
+span.ozon_high {
+	font-weight: bold;
+	color: #dd0000;
+}
+
+span.ozon_medium {
+	font-weight: bold;
+	color: #fb913e;
+}
+
+span.ozon_low {
+	font-weight: bold;
+	color: #00a30d;
+}

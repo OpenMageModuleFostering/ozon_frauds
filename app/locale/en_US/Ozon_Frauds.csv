@@ -1,0 +1,6 @@
+"Ozon Frauds module configuration","Ozon Frauds module configuration"
+"Enable module in frontoffice","Enable module in frontoffice"
+"Enable test controller","Enable test controller"
+"If enabled, a test page is available <a href='/index.php/ozonfrauds/test/' target='_blank'>here</a>","If enabled, a test page is available <a href='/index.php/ozonfrauds/test/' target='_blank'>here</a>"
+"Base URL for Webservices","Base URL for Webservices"
+"Ozon score","Ozon score"

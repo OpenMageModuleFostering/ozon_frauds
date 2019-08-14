@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+	<adminhtml_sales_order_index>
+        <reference name="head">
+        	<action method="addJs"><script>ozon_frauds/jquery-ui-1.11.4/external/jquery/jquery.js</script></action>
+        	<action method="addJs"><script>ozon_frauds/jquery-ui-1.11.4/external/jquery/jquery.noconflict.js</script></action>
+        	<action method="addJs"><script>ozon_frauds/jquery-ui-1.11.4/jquery-ui.min.js</script></action>
+            <action method="addJs"><script>ozon_frauds/sales.js</script></action>
+            <action method="addCss"><file>ozon_frauds/jquery-ui-1.11.4/jquery-ui.min.css</file></action>
+            <action method="addCss"><file>ozon_frauds/jquery-ui-1.11.4/jquery-ui.theme.min.css</file></action>
+            <action method="addCss"><file>ozon_frauds/sales.css</file></action>
+        </reference>
+    </adminhtml_sales_order_index>
+
+    <adminhtml_sales_order_view>
+    	<reference name="head">
+        	<action method="addJs"><script>ozon_frauds/jquery-ui-1.11.4/external/jquery/jquery.js</script></action>
+        	<action method="addJs"><script>ozon_frauds/jquery-ui-1.11.4/external/jquery/jquery.noconflict.js</script></action>
+        	<action method="addJs"><script>ozon_frauds/jquery-ui-1.11.4/jquery-ui.min.js</script></action>
+            <action method="addJs"><script>ozon_frauds/sales.js</script></action>
+            <action method="addCss"><file>ozon_frauds/jquery-ui-1.11.4/jquery-ui.min.css</file></action>
+            <action method="addCss"><file>ozon_frauds/jquery-ui-1.11.4/jquery-ui.theme.min.css</file></action>
+            <action method="addCss"><file>ozon_frauds/sales.css</file></action>
+    	</reference>
+        <reference name="order_info">
+            <action method="setTemplate"><template>ozon_frauds/sales/order/view/info.phtml</template></action>
+            <block type="adminhtml/sales_order_view_info" name="order_info_original" template="sales/order/view/info.phtml"></block>
+            <block type="ozon_frauds/adminhtml_sales_order_view_info" name="ozon_frauds" template="ozon_frauds/sales/order/view/ozon_frauds.phtml" />
+        </reference>
+	</adminhtml_sales_order_view>
+</layout>

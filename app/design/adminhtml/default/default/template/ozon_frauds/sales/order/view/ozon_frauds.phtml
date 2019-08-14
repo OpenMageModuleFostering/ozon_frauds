@@ -1,0 +1,14 @@
+<?php $_order = $this->getOrder(); ?>
+<?php if ($_order->getOzonScore() != '') : ?>
+<div class="box-left ozon_frauds">
+    <div class="entry-edit">
+        <div class="entry-edit-head">
+            <h4><?php echo $this->__('Ozon Frauds'); ?></h4>
+        </div>
+        <fieldset>
+            <div><span><strong><?php echo $this->__('Ozon score'); ?></strong></span> : <?php echo $_order->getOzonScore(); ?></div>
+        </fieldset>
+    </div>
+</div>
+<div class="clear"></div>
+<?php endif; ?>
