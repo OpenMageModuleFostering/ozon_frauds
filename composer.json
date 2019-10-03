@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Ozon_Frauds",
+    "name": "OpenMageModuleFostering\/Ozon_Frauds",
     "type": "magento-module",
     "license": "Commercial",
     "homepage": "",
     "description": "Ozon.io orders checker",
     "authors": [
-    {
-        "name": "Datasolution Lille",
-        "email": "mloock@datasolution.fr"
-    }
-],
+        {
+            "name": "Datasolution Lille",
+            "email": "mloock@datasolution.fr"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
